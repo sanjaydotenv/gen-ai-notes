@@ -1,16 +1,79 @@
-# React + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🚀 GENERATIVE AI NOTES
 
-Currently, two official plugins are available:
+### 📚 From Fundamentals to Production-Level AI Engineering
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**A structured learning journey covering Generative AI, LLMs, RAG, LangChain, LangGraph, AI Agents, MCP and Production AI.**
 
-## React Compiler
+<br/>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+![Learning](https://img.shields.io/badge/Learning-Continuous-FC6C26?style=for-the-badge)
+![Focus](https://img.shields.io/badge/Focus-Practical%20Learning-blue?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-In%20Progress-success?style=for-the-badge)
 
-## Expanding the ESLint configuration
+</div>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📖 About This Repository
+
+This repository contains structured and beginner-friendly notes on **Generative AI and AI Engineering**.
+
+The goal is to understand important concepts, learn practical implementations, and build a strong foundation for developing real-world AI applications.
+
+## 🧠 Topics Covered
+
+| # | Module | Topics |
+|---|---|---|
+| 01 | Generative AI Fundamentals | AI, ML, Deep Learning, Generative AI |
+| 02 | LLM Fundamentals | LLM Architecture, Tokens, Context Window |
+| 03 | Prompt Engineering | Prompt Design, Prompt Patterns |
+| 04 | Embeddings & Vector Databases | Embeddings, Similarity Search, Vector Stores |
+| 05 | RAG | Retrieval, Augmentation, Generation |
+| 06 | LangChain | Models, Chains, Memory, Document Loaders |
+| 07 | LangChain Advanced | Retrievers, Tools, Tool Calling, Agents |
+| 08 | LangGraph Fundamentals | StateGraph, Nodes, Edges, Conditional Edges |
+| 09 | LangGraph Advanced | Checkpointing, Persistence, Human-in-the-Loop |
+| 10 | AI Agents | Agent Architecture, ReAct, Tool Selection, Multi-Agent Systems |
+| 11 | MCP | Architecture, Clients, Servers, Resources, Tools |
+| 12 | RAG Engineering | System Chunking and Chunking Strategies |
+| 13 | Production AI | Architecture, Rate Limiting, Security, Evaluation, LangSmith, Cost Optimization, Deployment |
+
+## ⚙️ What You'll Learn
+
+- Understand how Large Language Models work.
+- Design effective prompts.
+- Build RAG-based applications.
+- Work with embeddings and vector databases.
+- Develop AI applications using LangChain.
+- Create stateful AI workflows using LangGraph.
+- Build AI agents with tool-calling capabilities.
+- Understand and implement MCP.
+- Evaluate, secure, monitor and deploy AI applications.
+- Optimize token usage and API costs.
+
+## 🛠️ Learning Approach
+
+- Simple and beginner-friendly explanations.
+- Practical JavaScript examples.
+- Important diagrams and workflows.
+- Real-world implementation concepts.
+- Interview-focused questions and answers.
+- Short notes without unnecessary theory.
+
+## 🎯 Goal
+
+Build a strong foundation in **Generative AI Engineering** and gain the practical knowledge required to develop, manage, and deploy real-world AI-powered applications.
+
+---
+
+<div align="center">
+
+### 💡 Learn → Build → Experiment → Improve
+
+**Every concept matters. Every implementation counts.**
+
+⭐ If you find these notes useful, consider giving this repository a star!
+
+</div>
