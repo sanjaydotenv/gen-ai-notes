@@ -10,6 +10,11 @@ import LangChainFundamentalsRoutes from "./routes/LangChain Fundamentals.Routes"
 import LangChainAdvanced from "./routes/LangChainAdvanced.Routes";
 import RAGFundamentals from "./routes/RAGFundamentals.Routes";
 import AdvancedRAGRoutes from "./routes/AdvancedRAG.Routes";
+import LangGraphFundamentalsRoutes from "./routes/LangGraphFundamentals.Routes";
+import ProductionAIRoutes from "./routes/ProductionAI.Routes";
+import LangChainAdvancedRoutes from "./routes/LangGraphAdvanced.Routes";
+import AiAgentsRoutes from "./routes/AIAgents.Routes";
+import McpRoutes from "./routes/MCP.Routes";
 
 const App = () => {
   const router = createBrowserRouter([
@@ -25,7 +30,13 @@ const App = () => {
         ...LangChainFundamentalsRoutes,
         ...LangChainAdvanced,
         ...RAGFundamentals,
-        ...AdvancedRAGRoutes
+        ...AdvancedRAGRoutes,
+        ...LangGraphFundamentalsRoutes,
+        ...LangChainAdvancedRoutes,
+        ...LangChainAdvanced,
+        ...AiAgentsRoutes,
+        ...McpRoutes,
+        ...ProductionAIRoutes
       ],
     },
   ]);

@@ -216,7 +216,6 @@ const MainLayout = () => {
         { title: "MCP Server", path: "mcp-server" },
         { title: "Resources", path: "resources" },
         { title: "Tools", path: "tools" },
-        { title: "Prompts", path: "prompts" },
         { title: "Custom MCP Server", path: "custom-mcp-server" },
       ],
     },
@@ -230,7 +229,6 @@ const MainLayout = () => {
           title: "AI Application Architecture",
           path: "ai-application-architecture",
         },
-        { title: "Error Handling", path: "error-handling" },
         { title: "Rate Limiting", path: "rate-limiting" },
         {
           title: "Prompt Injection Protection",
