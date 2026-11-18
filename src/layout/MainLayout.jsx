@@ -121,7 +121,6 @@ const MainLayout = () => {
         { title: "Embeddings Integration", path: "embeddings-integration" },
         { title: "Vector Store Integration", path: "vector-store-integration" },
         { title: "Custom Tools", path: "custom-tools" },
-        { title: "Tool Calling", path: "tool-calling" },
         { title: "Agents", path: "agents" },
       ],
     },
@@ -147,7 +146,6 @@ const MainLayout = () => {
       icon: Layers3,
       day: "DAY 09",
       topics: [
-        { title: "Semantic Search", path: "semantic-search" },
         { title: "Hybrid Search", path: "hybrid-search" },
         { title: "Query Transformation", path: "query-transformation" },
         { title: "Reranking", path: "reranking" },
@@ -306,24 +304,6 @@ const MainLayout = () => {
           </div>
 
           {/* ROADMAP PROGRESS */}
-          <div className="px-3 py-3 mb-5 rounded-xl bg-white/[0.025] border border-white/[0.06]">
-            <div className="flex justify-between items-center mb-2">
-              <span className="text-[11px] text-white/60 font-medium">
-                Generative AI Roadmap
-              </span>
-
-              <Sparkles size={13} className="text-[#FC6C26]" />
-            </div>
-
-            <div className="flex justify-between text-[10px] text-white/30 mb-2">
-              <span>14 Learning Modules</span>
-              <span>{totalTopics} Topics</span>
-            </div>
-
-            <div className="h-1 rounded-full bg-white/[0.08] overflow-hidden">
-              <div className="h-full w-[7%] bg-[#FC6C26] rounded-full" />
-            </div>
-          </div>
 
           {/* MODULES */}
           <div className="space-y-2">

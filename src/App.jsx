@@ -7,6 +7,9 @@ import LLMAPIIntegrationRoutes from "./routes/LLMAPIIntegration.Routes";
 import AdvancedLLMFeaturesRoutes from "./routes/AdvancedLLMFeatures.Routes";
 import EmbeddingsVectorDatabasesRoutes from "./routes/EmbeddingsVectorDatabases.Routes";
 import LangChainFundamentalsRoutes from "./routes/LangChain Fundamentals.Routes";
+import LangChainAdvanced from "./routes/LangChainAdvanced.Routes";
+import RAGFundamentals from "./routes/RAGFundamentals.Routes";
+import AdvancedRAGRoutes from "./routes/AdvancedRAG.Routes";
 
 const App = () => {
   const router = createBrowserRouter([
@@ -20,6 +23,9 @@ const App = () => {
         ...AdvancedLLMFeaturesRoutes,
         ...EmbeddingsVectorDatabasesRoutes,
         ...LangChainFundamentalsRoutes,
+        ...LangChainAdvanced,
+        ...RAGFundamentals,
+        ...AdvancedRAGRoutes
       ],
     },
   ]);
